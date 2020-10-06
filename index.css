@@ -82,6 +82,7 @@ background-color: rgb(153, 34, 34);
     width: 100%;
     max-width: 980px;
     margin-top: 4rem;
+    margin-bottom: 10rem;
     flex-wrap: wrap;
   }
 
