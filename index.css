@@ -86,6 +86,22 @@ background-color: rgb(153, 34, 34);
     flex-wrap: wrap;
   }
 
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
 .project-tile img {
     width: 20rem;
 }
