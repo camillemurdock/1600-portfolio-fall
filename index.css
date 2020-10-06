@@ -62,8 +62,19 @@ background-color: rgb(153, 34, 34);
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
-    grid-template-columns: 1fr;
-}
+  }
+  
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+  }
 
 .project-tile img {
     width: 20rem;
