@@ -38,6 +38,10 @@ background-color: rgb(153, 34, 34);
     background: #C0C0C0;
 }
 
+#welcome-section {
+    height: 100vh;
+}
+
 .project-tile img {
     width: 20rem;
 }
