@@ -54,7 +54,7 @@ background-color: rgb(153, 34, 34);
     background: #585858;
 }
 
-.projects-grid {
+#projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
