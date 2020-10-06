@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 
-#navbar {
+nav {
     display: flex;
     justify-content: flex-end;
 background-color: rgb(153, 34, 34);    
