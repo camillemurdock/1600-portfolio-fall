@@ -10,3 +10,7 @@ body {
 nav {
 background-color: rgb(153, 34, 34);    
 }
+
+.project-tile img {
+    width: 200px;
+}
