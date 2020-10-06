@@ -18,6 +18,11 @@ nav {
     justify-content: flex-end;
 background-color: rgb(153, 34, 34);    
 }
+#navbar {
+    display:flex;
+    justify-content: flex-end;
+    background-color: rgb(153, 34, 34);
+}
 
 .nav-list {
     display: flex;
