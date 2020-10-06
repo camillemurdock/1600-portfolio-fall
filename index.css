@@ -48,6 +48,12 @@ background-color: rgb(153, 34, 34);
     background-image: linear-gradient(62deg, #627388 0%, #181719 100%);
 }
 
+.project-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: var(#C0C0C0)
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
