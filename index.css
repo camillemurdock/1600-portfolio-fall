@@ -121,3 +121,9 @@ h1 {
     font-size: 4rem;
     color: white;
 }
+
+@media screen and (max-width: 28.75em) {
+    .contact-links {
+        flex-direction: column;
+    }
+}
