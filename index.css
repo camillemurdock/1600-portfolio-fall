@@ -1,12 +1,8 @@
-nav {
-    background-color: solid maroon;
-}
-
 body {
     background-color: lightgray;
 }
 
 nav {
     background-color: solid maroon;
-    border: solid maroon;
+    border: 20px solid maroon;
 }
