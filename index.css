@@ -21,6 +21,7 @@ background-color: rgb(153, 34, 34);
 .nav-list{
     display: flex;
     list-style-type: none;
+    margin-right: 2rem;
 }
 
 .project-tile img {
