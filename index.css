@@ -6,6 +6,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 body {
     background-color: lightgray;
@@ -28,6 +29,10 @@ background-color: rgb(153, 34, 34);
     display: block;
     font-size: 2rem;
     padding: 2rem;
+}
+
+.nav-list a:hover {
+    background: #45567d;
 }
 
 .project-tile img {
