@@ -45,7 +45,12 @@ background-color: rgb(153, 34, 34);
     align-items: center;
     height: 100vh;
     background-color: #000;
-    background-image: linear-gradient(62deg, #333f4d 0%, #181719 100%);
+    background-image: linear-gradient(62deg, #627388 0%, #181719 100%);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .project-tile img {
