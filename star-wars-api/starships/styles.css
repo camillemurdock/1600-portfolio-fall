@@ -1,0 +1,27 @@
+:root {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    margin: 8rem;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+}
+
+li {
+    list-style-type: none;
+}
