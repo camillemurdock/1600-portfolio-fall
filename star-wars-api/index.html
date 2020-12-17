@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Wars API Practice</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Star Wars API Practice</h1>
+    <!-- START OF THE NAVBAR -->
+    <nav id="navbar" class="nav">
+
+        <img id="starttourssmall-png" class="startourssmall-png"  src="photos/startoursconcept1.jpg" alt="startourssmall-png"/>
+
+        <ul class="nav-list">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#travel-info">Travel Info</a>
+            </li>
+            <li>
+                <a href="#booking">Book</a>
+            </li>
+        </ul> 
+        </nav>
+        <!-- END OF NAVBAR -->
+        <!-- START OF ABOUT SECTION -->
+
+        <section id="about" class="about">
+            <img id= "startours-png" class= "startours-png" src="/StarToursAPI/PhotoRefs/StarToursLogoPNG.png" alt="startours-png">
+
+            <h1 id="slogan" class="slogan"> The Preeminent Spaceline in the Galaxy. </h1>
+        </section>
+
+
+        <!-- END OF ABOUT SECTION -->
+        <!-- START OF TRAVEL INFO -->
+
+        <section id="travel-info" class= "travel-info">
+             <h1 id="travel-header" class="travel-header"> Let us help plan your galactic get away.</h1>
+
+             <div id="travel-grid"  class="travel-grid">
+
+                <figure>
+                 <img src="/StarToursAPI/PhotoRefs/startoursconcept1.jpg" alt="startoursconcept1">
+                 <figcaption>Star Tours is proud to introduce the StarSpeeder 3000. The most advanced transport of its kind in existence. With high-speed warp drive and a travel range of over one billion lightyears, the 3000 makes touring the galaxy safe and comfortable. And all our StarSpeeders are piloted by the newest, most reliable RX droids, so you can sit back, relax and enjoy the sights. Whenever your plans call for intergalactic travel, call on the best.
+
+                </figcaption>
+
+                 </figure>
+                 <figure>
+                 <img src="/StarToursAPI/PhotoRefs/Endorconcept.jpg" alt="startoursconcept2">
+                 <figcaption> Star Tours is now offering convenient daily departures to the exotic Moon of Endor. Come spend an afternoon or the entire day with the lovable Ewoks, in their charming tribal villages. It’s a fun-filled visit that you and your family will remember forever! Just ask for the Endor Express. Available only from Star Tours. </figcaption>
+
+
+                 </figure>
+
+                 <figure>
+                 <img src="/StarToursAPI/PhotoRefs/startoursconcept3.jpg" alt="startoursconcept3">
+                 <figcaption>  Star Tours announces new points for parsecs policy. save credits on any of our exciting action-adventure tours. Join us on the Trek to Tatooine. Start your visit with a trip to the Galactic Zoo. Then race over to the Mos Eisley Cantina, for cocktails with the galaxy’s most outrageous characters. If adventure is your middle name, this is the tour for you. </figcaption>
+
+
+                 </figure>
+             </div>
+
+             <div id="travel-learn"  class="travel-learn">
+                 <h1 id="travel-learn-header" class="travel-learn-header">
+                     Let's start planning!
+                 </h1>
+                 <p id="travel-learn-par" class="travel-learn-par"> Browse different planets for your get away, starships to look out for, and famous galactic heroes to see! Click on the buttons below to get started with your galactic adventure.</p>
+
+
+                 <div id="travel-buttons" class="travel-buttons">
+
+                    <a
+                    href="/Planets/index.html"
+                    target="_blank"
+                    >
+                    <figure>
+                 <img id="travel-buttons-img" class="travel-buttons-img" src="/StarToursAPI/PhotoRefs/planetselectimg.jpg" alt="planetselectimg">
+                 <figcaption> A quick look at all the planets we travel to!</figcaption>
+                 </figure>
+                 </a>
+
+                 <a
+                 href="/Starships/index.html"
+                 target="_blank"
+                 >
+                 <figure>
+                 <img id="travel-buttons-img" class="travel-buttons-img" src="PhotoRefs/spaceships-button.jpg" alt="spaceships-button">
+                 <figcaption> Spaceships to keep a look out for!</figcaption>
+                 </figure>
+                 </a>
+
+                 <a
+                 href="/Characters/index.html"
+                 target="_blank"
+                 >
+                 <figure>
+                 <img id="travel-buttons-img" class="travel-buttons-img" src="/StarToursAPI/PhotoRefs/starwars-characters-button.jpg" alt="character-image-button">
+                 <figcaption> Galactic celeberties you might spot on your tour!</figcaption>
+                 </figure>
+                 </a>
+                 </div>
+
+             </div>
+
+        </section>
+
+        <!-- END OF TRAVEL INFO -->
+        <!-- START OF BOOKING SECTION -->
+    <main>
+
+    </main>
+    <script type="module" src="main.js"> </script>
 </body>
-<script type="module" src="main.js"></script>
 </html>
