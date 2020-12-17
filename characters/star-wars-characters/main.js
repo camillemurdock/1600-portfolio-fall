@@ -1,5 +1,4 @@
 import { people } from '../data/people.js'
-import { removeChildren, getLastNumber } from '../utils/index.js'
 
 const mainContent = document.querySelector('#main')
 
@@ -10,15 +9,15 @@ mainHeader.className = 'mainHeader'
 document.body.insertBefore(mainHeader, mainContent)
 
 const maleButton = document.createElement('button')
-maleButton.textContent = 'Male Characters'
+maleButton.textContent = 'Male'
 mainHeader.appendChild(maleButton)
 
 const femaleButton = document.createElement('button')
-femaleButton.textContent = 'Female Characters'
+femaleButton.textContent = 'Female'
 mainHeader.appendChild(femaleButton)
 
 const otherButton = document.createElement('button')
-otherButton.textContent = 'Other Characters'
+otherButton.textContent = 'Other'
 mainHeader.appendChild(otherButton)
 
 const maleCharacters = people.filter(person => person.gender === 'male')
@@ -48,7 +47,7 @@ function populateDOM(characters) {
         const charImg = document.createElement('img')
         let charNum = getLastNumber(element.url)
         charImg.src = `https://starwars-visualguide.com/assets/img/characters/${charNum}.jpg`
-        charImg.addEventListener('error', () => charImg.hidden = true) // genius level
+        charImg.addEventListener('error', () => charImg.hidden = true) // BIG BRAIN MOVES
         const charCaption = document.createElement('figcaption')
         charCaption.textContent = element.name
     
@@ -57,4 +56,19 @@ function populateDOM(characters) {
     
         mainContent.appendChild(charFigure)
     })
+}
+
+function getLastNumber(url) {
+    let end = url.lastIndexOf('/')
+    let start = end - 2
+    if (url.charAt(start) === '/') {
+        start++
+    }
+    return url.slice(start, end)
+}
+
+function removeChildren(container) {
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
+      }
 }

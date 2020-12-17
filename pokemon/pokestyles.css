@@ -67,7 +67,7 @@ header {
 }
 
 .card__face--front {
-  background: rgb(153, 255, 255);
+  background: #d3d3d3;
   /* If you get the time get this image below v working. Would be cool. */
   background-image: url(/PokemonAPI/Photos/PokemonCardBlank.png);
   font-family: 'Seymour One', sans-serif;
