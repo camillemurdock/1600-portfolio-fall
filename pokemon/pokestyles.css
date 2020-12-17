@@ -1,55 +1,113 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* change the background image later */
+/*
+body{
+  background-image: url(/PokemonAPI/Photos/PokemonBackground.png)
+}
+*/
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(90deg, #3a3d40 0%, #181719 100%);
+}
+
+
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(231, 231, 247);
+}
+
+.headerTitle {
+  font-family: 'Seymour One', sans-serif;
+}
+
+.pokeApiImagepng {
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 .pokemonGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .scene {
-    width: 200px;
-    height: 260px;
-    border: 1px solid #CCC;
-    margin: 10px;
-    perspective: 600px;
-  }
+  width: 200px;
+  height: 284px;
+  border: 1px solid #CCC;
+  margin: 10px;
+  perspective: 600px;
+}
 
-  .card {
-    width: 100%;
-    height: 100%;
-    transition: transform 1000ms;
-    transform-style: preserve-3d;
-    cursor: pointer;
-    position: relative;
-  }
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1000ms;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
 
-  .card__face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
 
-  .card__face--front {
-    background: red;
-  }
-  
-  .card__face--back {
-    background: blue;
-    color: white;
-    transform: rotateY(180deg);
-  }
+.card__face--front {
+  background: rgb(153, 255, 255);
+  /* If you get the time get this image below v working. Would be cool. */
+  background-image: url(/PokemonAPI/Photos/PokemonCardBlank.png);
+  font-family: 'Seymour One', sans-serif;
+}
 
-  .card.is-flipped {
-    transform: rotateY(180deg);
-  }
+.card__face--back {
+  background: #d3d3d3;
+  color: white;
+  transform: rotateY(180deg);
+  font-family: 'Seymour One', sans-serif;
+}
+
+.card__face--back , font {
+  justify-content: center;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+
+button {
+  font-family: 'Seymour One', sans-serif;
+  font-size: 15px;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 20px;
+}
+
+button {
+  transition-duration: .4s;
+}
+
+button:hover{
+  background-color: rgb(162, 224, 224);
+  cursor: pointer;
+}
+
+p { 
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}

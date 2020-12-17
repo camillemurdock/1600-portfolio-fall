@@ -58,6 +58,42 @@ a {
     background-color: #000;
     background-image: linear-gradient(62deg, #627388 0%, #181719 100%);
 }
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 3.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+
+  .project-image {
+    height: 250px;
+    padding-top: 80px;
+  }
+
+  figcaption {
+    background-color: rgb(35, 38, 39);
+    color: #ccc;
+    max-width: 364px;
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    top: -10px;
+  }
+  
+
+.projects-section{
+padding: 35px;
+background: cadetblue;
+}
+
+.projects-section-header{
+    display:flex;
+    justify-content: center;
+    margin-top: auto;
+    color: white;
+}
 
 .project-section {
     text-align: center;
@@ -130,4 +166,54 @@ h1 {
     .welcome-section {
         background-image: linear-gradient(90deg, #5db34b 0%, #e4a00c 100%);
     }
+} .contact-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+
+.contact-section-header{
+    color: white;
 }
+
+.contact-section-header > h2{
+color: cadetblue;
+font-style: italic;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+.btn {
+    padding: 5rem 3rem;
+    border-radius: 2px;
+  }
+  
+.contact-links{
+    display: flex;
+    justify-content: center;
+    border-style: double;
+    border-width: thick;
+    border-color: lemonchiffon;
+}
+
+.contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    text-decoration: none;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
+  a:link{
+    color: white;
+  }
+
+  a:visited{
+    color: white;
+  }
