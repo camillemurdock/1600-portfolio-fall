@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="styles.css"/>
-    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-    <title>Star Wars Starships</title>
+    <title>Starships</title>
 </head>
 <body>
     <header>
-        <h1>Starships of Star Wars</h1>
+        <h1 id="starships-header" class="starships-header">THE SHIPS</h1>
+        <p id="starships-header-par" class="starships-header-par"> HERE IS A LIST OF THE SHIPS, CLICK ON A NAME TO SEE A PICTURE</p>
     </header>
     <div class="container">
         <nav class="nav">
@@ -18,15 +19,15 @@
         </nav>
         <main class="main"></main>
     </div>
-    <div class="modal">
+    <div class="modal my-modal">
         <div class="modal-background"></div>
         <div class="modal-content">
-          <h1 class="box">This image is not currently available.</h1>
+            <h1 class="message"> This ship is currently unavailable </h1>
         </div>
         <button class="modal-close is-large" aria-label="close"></button>
-      </div>
+    </div>
     <footer>
-        <p>&copy; This is for my class 2020</p>
+        <p id="startours-footer-par" class="startours-footer-par"> DGM 1600 FALL 2020 </p>
     </footer>
     <script src="main.js" type="module"></script>
 </body>

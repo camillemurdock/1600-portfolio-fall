@@ -1,4 +1,4 @@
-import { films } from '../data/films.js'
+import { films } from '../star-wars-films/films.js'
 import { getLastNumber } from '../utils/index.js'
 
 const main = document.querySelector('main')
