@@ -1,7 +1,8 @@
+// This page is used when we want to use the same function in different pages!
+
 export function removeChildren(container) {
-    while (container.firstChild) {
+    while (container.firstChild)
         container.removeChild(container.firstChild);
-      }
 }
 
 export function getLastNumber(url) {
@@ -10,5 +11,6 @@ export function getLastNumber(url) {
     if (url.charAt(start) === '/') {
         start++
     }
+  
     return url.slice(start, end)
 }

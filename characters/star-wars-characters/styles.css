@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url(/StarToursAPI/PhotoRefs/GalaxyBackground.jpg);
+    background: url(/star-wars-api/photos/background.png);
 }
 
 .header{
@@ -56,4 +56,41 @@ figcaption{
     position: relative;
     top: -30px;
     width: 184px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Death Star', Verdana;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+@font-face {
+    font-family: "Death Star";
+    src: url(death_star) format("oft"); 
+  }
+
+.mainHeader {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+figure img {
+    max-height: 14rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
 }
