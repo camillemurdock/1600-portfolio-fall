@@ -46,7 +46,7 @@ font-family: 'Roboto' , sans-serif;
 
 
 body{
-    background-image: url("/StarToursAPI/PhotoRefs/GalaxyBackground.jpg")
+    background-image: linear-gradient( #161718 0%, #000000ef 100%);
 }
 
 /*  END OF NAVBAR  */
@@ -75,7 +75,7 @@ main{
 }
 
 h1{
-    color: #FF5733;
+    color: #be2e5a;
     display: flex;
     margin-top: 40px;
     margin-bottom: 150px;
